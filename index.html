@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&family=Rubik:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap website</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">K<i class="fab fa-gratipay"></i>ffee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trend">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn1" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-7 pt-5 text-center">
+                    <h1 class="pt-5">Start Your Day With a Black Coffee!</h1>
+                    <button class="btn1 mt-4">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new">
+        <div class="container py-5">
+            <div class="row pt-4">
+                <div class="col-lg-7 m-auto text-center">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="./images/new3.jpeg" class="img-fluid newimg" alt="">
+                            <h6>Natural Beans</h6>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/new2.jpeg" class="img-fluid newimg" alt="">
+                            <h6>Cold Brew</h6>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="./images/new1.jpeg" class="img-fluid newimg" alt="">
+                            <h6>Beverages</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trend" id="trend">
+        <div class="container-fluid py-2">
+            <div class="row pt-4">
+                <div class="col-lg-7 m-auto text-center">
+                    <h1>Favourate Trending Items</h1>
+                    <div class="line"></div>
+                    <h4 style="margin-top: 20px;">Let's Try <i class="fas fa-grin-tongue"></i></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 pt-4 m-auto">
+                    <div class="row pt-2 text-center">
+                        <div class="col-lg-3 text-center">
+                            <img src="./images/trend1.jpeg" class="img-fluid" alt="">
+                            <h5>Cappuccino</h5>
+                            <h6>Rate: 150$</h6>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <img src="./images/trend2.jpeg" class="img-fluid" alt="">
+                            <h5>Espresso</h5>
+                            <h6>Rate: 120$</h6>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <img src="./images/trend3.jpeg" class="img-fluid" alt="">
+                            <h5>Latte</h5>
+                            <h6>Rate: 90$</h6>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <img src="./images/trend4.jpeg" class="img-fluid" alt="">
+                            <h5>Mocha</h5>
+                            <h6>Rate: 170$</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container py-5">
+            <h1 class="text-center">About Us</h1>
+            <div class="line"></div>
+            <div class="row py-4">
+                <div class="col-lg-6 m-auto">
+                    <img src="./images/abt1.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-5 content mt-3">
+                    <h1>Koffee cafe</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Laudantium impedit illum asperiores modi provident qui et inventore illo expedita iste
+                        praesentium repudiandae,
+                        voluptate officia maiores dicta a voluptates omnis accusantium. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Delectus laboriosam magnam eum obcaecati sint! Voluptatibus!</p>
+                    <p>indoor or outdoor seating are available..</p>
+                    <p><span style="font-weight: bold;">local providers:</span> koffee, mojo coffee roasters, hey!
+                        coffee</p>
+                    <button class="btn1">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/caro1.jpeg" class="caro" alt="...">
+                    <div class="row">
+                        <div class="col-lg-7 text-center m-auto">
+                            <h2>Tasty & Yummy Coffee <span style="font-size: large;">Available <i
+                                        class="fas fa-grin-tongue"></i></span></h2>
+                            <button class="btn1">Order now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product" id="products">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-7 text-center m-auto">
+                    <h1>Our Products List</h1>
+                    <div class="line"></div>
+                    <h4 style="margin-top: 20px;">Let's Check Out Below</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p1.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 40 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p2.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 60 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p3.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 120 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p4.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 50 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p5.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 100 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p1.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 40 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p4.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 50 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="./images/p3.jpeg" class="img-fluid proImage mb-2" alt="">
+                    <h5>Rate: 120 $</h5>
+                    <button class="btn1">Buy now</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center m-auto">
+                    <button class="btn1 mt-3">Click more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container py-3 m-auto">
+            <div class="row py-4">
+                <div class="col-lg-7 text-center m-auto">
+                    <h1>Contact Us</h1>
+                    <div class="line"></div>
+                    <h5 style="color: #dbc1ac; margin-top: 20px;">Always Be In Touch With Us</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <div>
+                                <h5>Location</h5>
+                                <p>Chennai</p>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>koffee@gmail.com</p>
+                            </div>
+                            <div>
+                                <h5>Phone-No</h5>
+                                <p>+044 345632</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 pb-4">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control bg-light" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="mail" class="form-control bg-light" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 py-2">
+                                    <textarea name="mes" class="form-control bg-light" id="" cols="30" rows="6"
+                                        placeholder="send your thoughts..."></textarea>
+                                </div>
+                            </div>
+
+                            <button class="btn2 mt-3">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <h1>Join Our Club</h1>
+                    <div class="line" style="margin-bottom: 20px;"></div>
+                    <input type="text" class="px-3" placeholder="Enter your mail">
+                    <button class="btn3">Submit</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-3 py-3">
+                            <h5 class="pb-3">CUSTOMER CARE</h5>
+                            <p>Regular</p>
+                            <p>On Time</p>
+                            <p>Always Care</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5 class="pb-3">SERVICE</h5>
+                            <p>Coffee</p>
+                            <p>Cool Drinks</p>
+                            <p>Beverages</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5 class="pb-3">FAQ'S</h5>
+                            <p>No E-Charges</p>
+                            <p>Shopping & Delivery</p>
+                            <p>Products</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5 class="pb-3">SOCIAL LINKS</h5>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p class="m-auto text-center">Copyright &#169; 2023 All rights reserved by <b>K<i style="font-size: 15px;" class="fab fa-gratipay"></i>ffee</b></p>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
